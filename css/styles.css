@@ -12,12 +12,12 @@ body {
 }
 
 .active-li {
-    border: 3px solid yellow;
+    border: 3px solid black;
 }
 
 .active-btn:hover {
-    -webkit-box-shadow: 0 0 5px 5px yellow;
-    box-shadow: 0 0 5px 5px yellow;
+    -webkit-box-shadow: 0 0 5px 5px blue;
+    box-shadow: 0 0 5px 5px blue;
 }
 
 .active-btn:active {
@@ -45,15 +45,15 @@ body {
     overflow: auto;
     width: 500px;
     background-color: transparent;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 3px solid #a10202;
+    background-color: dimgray;
+    border: 3px solid white;
     margin-left: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: black;
+    background-color: white;
     border-radius: 90px;
-    border: 2px solid #a10202;
+    border: 2px solid black;
 }
 
 li {
@@ -62,20 +62,20 @@ li {
 
 a {
     text-decoration: none;
-    color: #a10202;
+    color: blue;
 }
 
 .list-group-item {
-    background: rgba(0, 0, 0, 0.9);
-    color: #a10202;
+    background: white;
+    color: #111;
     cursor: pointer;
-    border: 2px solid yellow;
+    border: 2px solid;
     border-radius: 20px;
 }
 
 .list-group-item:hover {
-    -webkit-box-shadow: 0 0 5px 5px #fffb01;
-    box-shadow: 0 0 5px 5px #fffb01;
+    -webkit-box-shadow: 0 0 5px 5px #1601ff;
+    box-shadow: 0 0 5px 5px #0e01ff;
     background: aquamarine;
 }
 
@@ -94,8 +94,8 @@ ul, li {
 }
 
 .list-group-item:hover {
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: black;
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
-    color: yellow;
+    color: white;
 }
